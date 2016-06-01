@@ -1,6 +1,6 @@
 {
   "name": "qpm_testcoin",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "test coin",
   "main": "index.js",
   "scripts": {
@@ -32,13 +32,13 @@
     "negotiator": "^0.6.1",
     "qpm_balance": "0.0.4",
     "qpm_faucet": "^0.1.2",
-    "qpm_media": "0.0.8",
+    "qpm_media": "0.0.11",
     "sequelize": "^3.23.2",
     "solidbot": "0.0.3",
     "vhost": "^3.0.2",
     "wc_db": "0.0.1",
     "wc_express": "0.0.2",
-    "webcredits": "^0.1.10",
+    "webcredits": "^0.1.11",
     "webid": "^0.3.7"
   }
 }
