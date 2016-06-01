@@ -1,6 +1,6 @@
 {
   "name": "qpm_testcoin",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "test coin",
   "main": "index.js",
   "scripts": {
@@ -37,7 +37,7 @@
     "solidbot": "0.0.3",
     "vhost": "^3.0.2",
     "wc_db": "0.0.1",
-    "wc_express": "0.0.2",
+    "wc_express": "0.0.3",
     "webcredits": "^0.1.11",
     "webid": "^0.3.7"
   }
