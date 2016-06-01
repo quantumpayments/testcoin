@@ -1,6 +1,6 @@
 {
   "name": "qpm_testcoin",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "test coin",
   "main": "index.js",
   "scripts": {
@@ -30,6 +30,7 @@
     "express-session": "^1.13.0",
     "http-error": "0.0.6",
     "negotiator": "^0.6.1",
+    "qpm_balance": "0.0.4",
     "qpm_media": "0.0.8",
     "sequelize": "^3.23.2",
     "solidbot": "0.0.3",
