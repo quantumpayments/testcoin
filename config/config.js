@@ -18,7 +18,8 @@ var config = {
     database : 'media',
     username : 'me',
     password : ''
-  }
+  },
+  wallet : "https://localhost/wallet/test#this"
 }
 
 module.exports = config
