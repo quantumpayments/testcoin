@@ -1,10 +1,11 @@
 #!/usr/bin/env node
 
 // requires
+var createApp  = require('../lib/create-app')
+var debug      = require('debug')('qpm_testcoin:server.js')
+var express    = require('express')
 var program    = require('commander')
 var wc_express = require('wc_express')
-var express    = require('express')
-var createApp  = require('../lib/create-app')
 
 function bin(argv) {
 
@@ -22,15 +23,15 @@ function bin(argv) {
     app = wc_express.createServer(program, createApp)
   } catch (e) {
     if (e.code === 'EACCES') {
-      console.log('You need root privileges to start on this port')
+      console.error('You need root privileges to start on this port')
       return 1
     }
     if (e.code === 'EADDRINUSE') {
-      console.log('The port ' + argv.port + ' is already in use')
+      console.error('The port ' + argv.port + ' is already in use')
       return 1
     }
-    console.log(e.message)
-    console.log(e.stack)
+    console.error(e.message)
+    console.error(e.stack)
     return 1
   }
 
