@@ -1,6 +1,6 @@
 {
   "name": "qpm_testcoin",
-  "version": "0.0.16",
+  "version": "0.0.17",
   "description": "test coin",
   "main": "index.js",
   "scripts": {
@@ -35,7 +35,7 @@
     "qpm_faucet": "^0.1.9",
     "qpm_media": "0.0.17",
     "qpm_ui": "0.0.19",
-    "qpm_withdrawal": "0.0.13",
+    "qpm_withdrawal": "0.0.14",
     "sequelize": "^3.23.2",
     "solidbot": "0.0.3",
     "vhost": "^3.0.2",
