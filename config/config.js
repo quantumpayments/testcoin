@@ -19,7 +19,11 @@ var config = {
     username : 'me',
     password : ''
   },
-  wallet : "https://localhost/wallet/test#this"
+  wallet : "https://localhost/wallet/test#this",
+  walletname : "localhost test",
+  HDPublicKey : "xpub661MyMwAqRbcH4Jage4yavGhxdhv48gniC2S4irQG3Rj78t9pbTQch3PpqKvwunq7cuYeLEQ6VA1C3wcyk8MKspGqAtU9agfNcn2KBDvM6U",
+  maker : "https://melvincarvalho.com/#me"
+
 }
 
 module.exports = config
