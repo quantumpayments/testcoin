@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <% include ../partials/head %>
+</head>
+<body>
+
+  <% include ../partials/nav %>
+
+  <div class="content-wrapper">
+    <section class="content-header">
+
+      <div>
+      Address : <a target="_blank" href="http://tbtc.blockr.io/address/info/<%= ui.deposit %>"><%= ui.deposit %></a><br>
+      Current Address balance : <%= ui.balance %><br>
+      Cleared deposits : <%= ui.cleared %><br>
+      In ledger : <%= ui.inledger %><br>
+      Swept to account : <%= ui.swept %><br>
+      <a href="/"><a href="/deposit">Deposit</a> | <a href="/clear">Clear</a> | <a href="/toledger">To Ledger</a> | <a href="/sweep">Sweep</a>
+      </div>
+
+    </section>
+  </div>
+
+  <footer>
+    <% include ../partials/footer %>
+  </footer>
+
+</body>
+</html>
