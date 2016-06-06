@@ -1,6 +1,6 @@
 {
   "name": "qpm_testcoin",
-  "version": "0.0.36",
+  "version": "0.0.37",
   "description": "test coin",
   "main": "index.js",
   "scripts": {
@@ -43,7 +43,7 @@
     "vhost": "^3.0.2",
     "wc_db": "0.0.1",
     "wc_express": "0.0.4",
-    "wc_wallet": "0.0.5",
+    "wc_wallet": "0.0.6",
     "webcredits": "^0.1.11",
     "webid": "^0.3.7"
   }
