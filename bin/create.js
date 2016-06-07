@@ -4,7 +4,7 @@
 var fs         = require('fs')
 var program    = require('commander')
 var wc_db      = require('wc_db')
-var qpm_media  = require('../')
+var qpm_media  = require('qpm_media')
 
 /**
  * version as a command
