@@ -1,6 +1,6 @@
 {
   "name": "qpm_testcoin",
-  "version": "0.0.51",
+  "version": "0.0.52",
   "description": "test coin",
   "main": "index.js",
   "scripts": {
