@@ -7,10 +7,6 @@ var program       = require('commander')
 var qpm_media     = require('qpm_media')
 var request       = require('request')
 
-
-
-
-
 /**
 * version as a command
 */
@@ -21,13 +17,13 @@ function bin(argv) {
   process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0"
 
   var url     = process.argv[2] || 'https://localhost:3000/random_rate'
-  var cert    = process.env['CERT']
-  var display = process.env['DISP'] || 'display'
+  var cert    = process.argv[3] || process.env['CERT']
+  var display = process.argv[4] || process.env['DISP'] || 'display'
 
   var options = {
     url: url,
-    key: fs.readFileSync('/home/melvin/s/webid.pem'),
-    cert: fs.readFileSync('/home/melvin/s/webid.pem'),
+    key: fs.readFileSync(cert),
+    cert: fs.readFileSync(cert),
     headers: { //We can define headers too
       'Accept': 'application/json'
     }
