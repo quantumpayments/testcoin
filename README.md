@@ -28,6 +28,10 @@ It is now possible to play audio, images
 
 ![faucet](/static/image/testcoin_image.png)
 
+and video
+
+![faucet](/static/image/testcoin_video.png)
+
 ### Deposits
 
 Deposits are allowed via bitcoin testnet coins.  Using HD wallets no funds ever hit the server.
