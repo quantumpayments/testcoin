@@ -38,4 +38,4 @@ Deposits are allowed via bitcoin testnet coins.  Using HD wallets no funds ever 
 
 ### Withdrawals
 
-Withdrawals are negotiated by sending a withdawal request to an inbox
+Withdrawals are negotiated by sending a withdrawal request to an inbox
